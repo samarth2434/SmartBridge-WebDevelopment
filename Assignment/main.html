@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #007BFF;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .styled-button:hover {
+            background-color: white;
+            color: #007BFF;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        input {
+            margin: 5px;
+            padding: 8px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>Hello Everyone My name is Samarth Gupta I am from indore. I am currently pursing CSE(core) at VIT BHOPAL.</p>
+    <p>I have a keen interest in playing cricket, listening songs, programming, and I enjoy exploring and learning new things.</p>
+    
+    <div class="center">
+        <img src="info.webp" alt="A descriptive caption for the image" width="300">
+        <p>A descriptive caption for the image.</p>
+        <button class="styled-button">Click Me</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Regno</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Samarth</td>
+            <td>22BCE11394</td>
+            <td>samarthgupta2022@vitbhopal.ac.in</td>
+        </tr>
+        <tr>
+            <td>Hardik</td>
+            <td>22BCE10556</td>
+            <td>hardikmishra.2022@vitbhopal.ac.in</td>
+        </tr>
+    </table>
+    
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit" class="styled-button">Submit</button>
+    </form>
+</body>
+</html>
+
